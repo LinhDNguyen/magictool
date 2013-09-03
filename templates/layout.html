@@ -1,0 +1,14 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>{% block title %}Magic tool{% endblock %}</title>
+        <link rel="stylesheet" type="text/css" href='{{MEDIA_URL}}css/main.css' />
+        <script language="JavaScript" type="text/javascript" src='{{MEDIA_URL}}js/jquery-1.9.1.min.js'></script>
+        <script language="JavaScript" type="text/javascript" src='{{MEDIA_URL}}js/main.js'></script>
+    </head>
+
+    <body>
+    {% block bodycontent %}{% endblock %}
+    </body>
+
+</html>

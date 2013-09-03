@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block title %}Note management{% endblock %}
+{% block bodycontent %}
+        <h1>Note management</h1>
+        <ul>
+        {% for category in categories %}
+            <li>{{category.name}}</li>
+        {% endfor %}
+        </ul>
+{% endblock %}
